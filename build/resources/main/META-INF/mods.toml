@@ -1,0 +1,60 @@
+# Loader metadata
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory 
+license="All rights reserved"
+
+
+
+[[mods]] #mandatory
+# The modid of the mod
+modId="mochi_for_tfc" #mandatory
+version="0.1.0" #mandatory
+displayName="Mochi for TFC mod" #mandatory
+logoFile="examplemod.png" #optional 
+authors="Sheep-sans" #optional   
+description='''
+This mochi is mochimochi
+'''
+
+
+# Minecraft
+[[dependencies.mochi_for_tfc]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.18.2,1.19)"
+    ordering = "NONE"
+    side = "BOTH" 
+
+# Forge
+[[dependencies.mochi_for_tfc]]
+    modId = "forge" #mandatory
+    mandatory = true #mandatory
+    versionRange = "[40,)" #mandatory
+    ordering = "NONE"
+    side = "BOTH"
+
+# JEI
+[[dependencies.mochi_for_tfc]]
+    modId = "jei"
+    mandatory = false
+    versionRange = "[9.7.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+# Patchouli
+[[dependencies.mochi_for_tfc]]
+    modId="patchouli"
+    mandatory=true
+    versionRange = "[1.18.2-67,)"
+    ordering = "NONE"
+    side = "CLIENT"
+
+# TerraFirmaCraft
+[[dependencies.mochi_for_tfc]]
+    modId = "tfc"
+    mandatory = true
+    versionRange = "[2.2.30,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+
