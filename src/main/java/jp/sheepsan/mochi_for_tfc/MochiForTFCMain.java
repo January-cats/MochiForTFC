@@ -23,8 +23,9 @@ public class MochiForTFCMain {
 		// register this mod
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		
-		modEventBus.addListener(this::setup);
 		ItemInit.ITEMS.register(modEventBus); // register all Items contained in ITEMS
+		
+		modEventBus.addListener(this::setup);
 		
 		MinecraftForge.EVENT_BUS.register(this);
 		LOGGER.info("Welcome to Mochi for TFC!");

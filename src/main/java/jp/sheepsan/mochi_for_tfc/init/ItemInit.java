@@ -1,6 +1,7 @@
 package jp.sheepsan.mochi_for_tfc.init;
 
 import java.util.Locale;
+import java.util.Map;
 import java.util.function.Supplier;
 
 import jp.sheepsan.mochi_for_tfc.MochiForTFCMain;
@@ -8,9 +9,12 @@ import jp.sheepsan.mochi_for_tfc.items.MochiFoodEnum;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import net.dries007.tfc.util.Helpers;
 
 import net.dries007.tfc.common.items.DecayingItem;
 
@@ -34,16 +38,27 @@ public class ItemInit {
 			);
 	*/
 	
+	public static final Map<MochiFoodEnum, RegistryObject<Item>> FOODS = Helpers.mapOfKeys(
+			MochiFoodEnum.class,
+			food -> items_register("food/" + food.name(),
+					() -> new DecayingItem(new Item.Properties()
+							.food(food.getFoodPropertiesBuilder()).
+							tab(MochiForTFCTab.instance)
+							)));
 	
-	
+	/*
 	public static final RegistryObject<Item> ZUNDA_MOCHI2 = ITEMS.register("food/zunda_mochi",
 			() -> new Item(new Item.Properties().tab(MochiForTFCTab.instance)) // Property settings
 			);
+	
+
 	
 	// ゆでた枝豆
 	public static final RegistryObject<Item> BOILED_GREENBEAN = ITEMS.register("food/boiled_greenbean",
 			() -> new Item(new Item.Properties().tab(MochiForTFCTab.instance))
 			);
+	
+	*/
 	
 	// アイテムの登録を一括で行うためのメソッド
 	private static RegistryObject<Item> register(String name, CreativeModeTab group) {
@@ -76,7 +91,9 @@ public class ItemInit {
 		@Override
 		public ItemStack makeIcon() {
 			// configure Icon for GUI
-			return new ItemStack(ZUNDA_MOCHI2.get()); // get()で参照
+			return new ItemStack(Items.ACACIA_BOAT); // get()で参照
+			// とりあえずアカシアのボートを暫定的にタブアイコンに設定
+			// TODO: アイコン変更
 		}
 	}
 
