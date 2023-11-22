@@ -6,15 +6,18 @@ public enum MochiFoodEnum {
 	// TFCに追加する食べ物
 	// そのうち、食べた時に栄養回復・満腹度回復以外のステータスを持たないもの。
 	ZUNDA_MOCHI,
-	ZUNDA_ANKO,
 	BOILED_GREENBEAN,
+	;
+	/*
+	ZUNDA_ANKO,
 	GRINDED_GREENBEAN,
 	SUPER_ZUNDA_MOCHI,
 	SUPER_ZUNDA_ANKO,
 	BOILED_SUPER_GREENBEAN,
 	GRINDED_SUPER_GREENBEAN,
 	MOCHI,
-	;
+	*/
+
 	
 	private boolean meat;
 	private boolean fast;
@@ -22,7 +25,7 @@ public enum MochiFoodEnum {
 	private MochiFoodEnum(boolean meat, boolean fast){ // コンストラクタ
 		// FoodProperties に渡す設定
 		this.meat = meat; // オオカミに食べさせることができるか。肉類。
-		this.fast = fast; // 早く食べることができるか。昆布。
+		this.fast = fast; // 早く食べることができるか。例）昆布。
 	}
 	
 	private MochiFoodEnum() { // コンストラクタ

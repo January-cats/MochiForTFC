@@ -1,6 +1,6 @@
 {
 	"itemGroup.mochi_for_tfc": "Mochi for TFC Items",
 	
-	"item.mochi_for_tfc.zunda_mochi": "Zunda Mochi",
-	"item.mochi_for_tfc.boiled_greenbean": "Boiled Greenbean"
+	"item.mochi_for_tfc.food.zunda_mochi": "Zunda Mochi",
+	"item.mochi_for_tfc.food.boiled_greenbean": "Boiled Greenbean"
 }
