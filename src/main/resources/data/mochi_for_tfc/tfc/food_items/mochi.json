@@ -1,0 +1,11 @@
+{
+	"ingredient": {
+		"item": "mochi_for_tfc:food/mochi"
+	},
+	"hunger": 4,
+	"saturation": 2.5,
+	"decay_modifier": 1.0,
+	"vegetables": 0.0,
+	"grain": 1.0
+
+}
