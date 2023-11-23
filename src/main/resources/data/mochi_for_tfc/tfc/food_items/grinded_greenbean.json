@@ -1,0 +1,10 @@
+{
+	"ingredient": {
+		"item": "mochi_for_tfc:food/grinded_greenbean"
+	},
+	"hunger": 4,
+	"saturation": 0.5,
+	"decay_modifier": 1.0,
+	"vegetables": 1.0
+
+}
