@@ -1,0 +1,46 @@
+{
+	"type": "tfc:pot",
+	"ingredients": [
+		{
+			"item": "tfc:powder/salt"
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "mochi_for_tfc:food/green_soybean"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "mochi_for_tfc:food/green_soybean"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "mochi_for_tfc:food/green_soybean"
+			}
+		}
+	],
+	
+	"fluid_ingredient": {
+		"ingredient": "minecraft:water",
+		"amount": 1000
+	},
+	
+	"item_output": [
+		{
+			"item": "mochi_for_tfc:food/boiled_green_soybean"
+		},
+		{
+			"item": "mochi_for_tfc:food/boiled_green_soybean"
+		},
+		{
+			"item": "mochi_for_tfc:food/boiled_green_soybean"
+		}
+	],
+	
+	"duration": 1000,
+	"temperature": 300
+}
