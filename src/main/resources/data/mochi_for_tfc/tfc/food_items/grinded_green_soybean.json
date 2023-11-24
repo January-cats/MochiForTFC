@@ -1,6 +1,6 @@
 {
 	"ingredient": {
-		"item": "mochi_for_tfc:food/grinded_greenbean"
+		"item": "mochi_for_tfc:food/grinded_green_soybean"
 	},
 	"hunger": 4,
 	"saturation": 0.5,

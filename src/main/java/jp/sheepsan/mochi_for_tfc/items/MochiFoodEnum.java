@@ -6,9 +6,9 @@ public enum MochiFoodEnum {
 	// TFCに追加する食べ物
 	// そのうち、食べた時に栄養回復・満腹度回復以外のステータスを持たないもの。
 	ZUNDA_MOCHI,
-	BOILED_GREENBEAN,
-	GRINDED_GREENBEAN,
 	ZUNDA_ANKO,
+	BOILED_GREEN_SOYBEAN,
+	GRINDED_GREEN_SOYBEAN,
 	MOCHI,
 	;
 	/*
