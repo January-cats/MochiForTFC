@@ -1,0 +1,52 @@
+{
+	"type": "tfc:pot",
+	"ingredients": [
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "tfc:food/rice_flour"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "tfc:food/rice_flour"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "tfc:food/rice_flour"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "tfc:food/rice_flour"
+			}
+		}
+	],
+	
+	"fluid_ingredient": {
+		"ingredient": "minecraft:water",
+		"amount": 1000
+	},
+	
+	"item_output": [
+		{
+			"item": "mochi_for_tfc:food/mochi"
+		},
+		{
+			"item": "mochi_for_tfc:food/mochi"
+		},
+		{
+			"item": "mochi_for_tfc:food/mochi"
+		},
+		{
+			"item": "mochi_for_tfc:food/mochi"
+		}
+	],
+	
+	"duration": 1000,
+	"temperature": 300
+}

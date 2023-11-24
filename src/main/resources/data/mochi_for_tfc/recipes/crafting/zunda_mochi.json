@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "mochi_for_tfc:food/zunda_anko"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "mochi_for_tfc:food/mochi"
+			}
+		}
+	],
+	"result" : {
+		"item": "mochi_for_tfc:food/zunda_mochi"
+	}
+}
