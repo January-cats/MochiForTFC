@@ -1,6 +1,0 @@
-{
-	"parent": "item/generated",
-	"textures": {
-		"layer0": "mochi_for_tfc:items/boiled_greenbean"
-	}
-}
