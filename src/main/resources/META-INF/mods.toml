@@ -1,16 +1,16 @@
 # Loader metadata
 modLoader="javafml" #mandatory
 loaderVersion="[40,)" #mandatory 
-license="All rights reserved"
+license="The MIT license (MIT)"
 
 
 
 [[mods]] #mandatory
 # The modid of the mod
 modId="mochi_for_tfc" #mandatory
-version="0.1.0" #mandatory
+version="${file.jarVersion}" #mandatory
 displayName="Mochi for TFC mod" #mandatory
-logoFile="examplemod.png" #optional 
+#logoFile="examplemod.png" #optional 
 authors="Sheep-sans" #optional   
 description='''
 This mochi is mochimochi

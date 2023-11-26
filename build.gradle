@@ -24,7 +24,7 @@ apply plugin: 'org.spongepowered.mixin'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
 
-version = '1.18.2-0.1.0-beta'
+version = '1.18.2-0.2.0-beta'
 group = 'jp.sheepsan.mochi_for_tfc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'mochi_for_tfc'
 
