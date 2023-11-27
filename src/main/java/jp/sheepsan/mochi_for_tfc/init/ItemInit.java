@@ -61,6 +61,7 @@ public class ItemInit {
 	*/
 	
 	// アイテムの登録を一括で行うためのメソッド
+	@SuppressWarnings("unused")
 	private static RegistryObject<Item> register(String name, CreativeModeTab group) {
 		// ITEMS.register へ渡すための Supplier
 		Supplier<Item> sup = () -> new Item(new Item.Properties().tab(group));
