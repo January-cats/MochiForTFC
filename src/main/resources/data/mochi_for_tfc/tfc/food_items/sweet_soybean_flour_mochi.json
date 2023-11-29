@@ -1,0 +1,12 @@
+{
+	"ingredient": {
+		"item": "mochi_for_tfc:food/sweet_soybean_flour_mochi"
+	},
+	"hunger": 8,
+	"saturation": 2.5,
+	"decay_modifier": 1.5,
+	"vegetables": 0.5,
+	"grain": 1.5,
+	"protein": 1.5
+
+}

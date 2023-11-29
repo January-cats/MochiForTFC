@@ -1,0 +1,11 @@
+{
+	"ingredient": {
+		"item": "mochi_for_tfc:food/roasted_soybean"
+	},
+	"hunger": 4,
+	"saturation": 2.5,
+	"decay_modifier": 2.0,
+	"vegetables": 0.5,
+	"protein": 1.0
+
+}

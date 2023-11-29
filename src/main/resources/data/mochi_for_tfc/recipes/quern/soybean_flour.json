@@ -1,0 +1,18 @@
+{
+	"type": "tfc:quern",
+	"ingredient": {
+		"type": "tfc:not_rotten",
+		"ingredient": {
+			"item": "mochi_for_tfc:food/roasted_soybean"
+		}
+	},
+	"result": {
+		"stack": {
+			"item": "mochi_for_tfc:food/soybean_flour"
+		},
+		"modifiers": [
+			"tfc:copy_food"
+		]
+	}
+		
+}

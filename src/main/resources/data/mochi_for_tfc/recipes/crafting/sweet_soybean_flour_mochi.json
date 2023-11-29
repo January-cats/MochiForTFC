@@ -1,0 +1,26 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:sugar"
+		},
+		{
+			"item": "tfc:powder/salt"
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "mochi_for_tfc:food/mochi"
+			}
+		},
+		{
+			"type": "tfc:not_rotten",
+			"ingredient": {
+				"item": "mochi_for_tfc:food/soybean_flour"
+			}
+		}
+	],
+	"result": {
+		"item": "mochi_for_tfc:food/sweet_soybean_flour_mochi"
+	}
+}
