@@ -1,0 +1,13 @@
+{
+	"type": "tfc:heating",
+	"ingredient": {
+		"type": "tfc:not_rotten",
+		"ingredient": {
+			"item": "tfc:food/soybean"
+		}
+	},
+	"result_item": {
+		"item": "mochi_for_tfc:food/roasted_soybean"
+	},
+	"temperature": 200
+}
